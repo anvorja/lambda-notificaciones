@@ -6,6 +6,8 @@ package com.crediya.notificaciones.domain.exception;
  */
 public class EventoInvalidoException extends RuntimeException {
 
+    private static final long serialVersionUID = 1L;
+
     public EventoInvalidoException(String mensaje) {
         super(mensaje);
     }
